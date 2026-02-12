@@ -4,6 +4,8 @@
   "description": "Updated version of  swamijtcinvoice user: swamijtcinvoice $ git pull swamijtcinvoice2 main --rebase From https://github.com/swaminathanGithub/swamijtcinvoice2  * branch            main       -> FETCH_HEAD Successfully rebased and updated refs/heads/main. user: swamijtcinvoice",
   "main": "index.js",
   "scripts": {
+    "start": "ui5 serve -o index.html",    
+    "startdev": "ui5 serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
