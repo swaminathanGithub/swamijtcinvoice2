@@ -1,0 +1,31 @@
+{
+  "_version": "1.77.0",
+  "sap.app": {
+    "id": "swamijtcinvoice",
+    "type": "application",
+    "title": "My Fiori App",
+    "description": "Manual SAPUI5 Fiori App"
+  },
+  "sap.ui5": {
+    "rootView": {
+      "viewName": "swamijtcinvoice.view.App",
+      "type": "XML",
+      "async": true,
+      "id": "app"
+    },
+    "dependencies": {
+      "minUI5Version": "1.139.4",
+      "libs": {
+        "sap.m": {}
+      }
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "swamijtcinvoice.i18n.i18n"
+        }
+      }
+    }
+  }
+}
